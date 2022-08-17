@@ -1,3 +1,4 @@
+/*
 .App {
   text-align: center;
 }
@@ -35,4 +36,13 @@
   to {
     transform: rotate(360deg);
   }
+}
+*/
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 65px;
+  grid-row-gap: 20px;
 }

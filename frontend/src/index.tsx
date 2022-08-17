@@ -1,7 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {faHandSpock} from '@fortawesome/free-regular-svg-icons/faHandSpock';
+import {faBookmark} from '@fortawesome/free-regular-svg-icons/faBookmark'
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -9,7 +12,29 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <App />
+
+      <body>
+        <div className="wrapper">
+          <div className="Navigation">
+            <nav>
+              <FontAwesomeIcon className="sub-wrapper" icon={faHandSpock}/>
+              
+              <ul className="sub-wrapper">
+                <li> 
+                  <FontAwesomeIcon icon={faBookmark}/>
+                  <a href="#">Courses</a> 
+                </li>
+              </ul>
+
+            </nav>
+          </div>
+
+          <div className="content">
+            <App />
+          </div>
+        </div>
+
+      </body>
   </React.StrictMode>
 );
 
