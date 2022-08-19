@@ -1,0 +1,1258 @@
+{
+    "name": "BMS-2020-07 - La Violence",
+    "user": "Admin",
+    "create_date": "dd-mm-yyyy",
+    "update_date": "dd-mm-yyyy",
+    "language_a": "french",
+    "language_b": "german",
+    "cards": [
+        {
+            "side_a": [
+                "la violence"
+            ],
+            "side_b": [
+                "die Gewalt"
+            ]
+        },
+        {
+            "side_a": [
+                "un acte de violence"
+            ],
+            "side_b": [
+                "ein Gewaltakt"
+            ]
+        },
+        {
+            "side_a": [
+                "violent"
+            ],
+            "side_b": [
+                "gewalttätig , heftig",
+
+                "gewalttätig",
+                "heftig"
+            ]
+        },
+        {
+            "side_a": [
+                "la haine"
+            ],
+            "side_b": [
+                "der Hass"
+            ]
+        },
+        {
+            "side_a": [
+                "haïr qn/qc",
+                "haïr qn",
+                "haïr qc"
+            ],
+            "side_b": [
+                "jn/etw hassen",
+
+                "jn hassen",
+                "etw hassen"
+            ]
+        },
+        {
+            "side_a": [
+                "la vengance"
+            ],
+            "side_b": [
+                "die Rache"
+            ]
+        },
+        {
+            "side_a": [
+                "se venger de qn/qc",
+
+                "se venger de qn",
+                "se venger de qc"
+            ],
+            "side_b": [
+                "sich an jm rächen, sich für etw rächen",
+
+                "sich für etw rächen",
+                "sich an jm rächen"
+            ]
+        },
+        {
+            "side_a": [
+                "le délit"
+            ],
+            "side_b": [
+                "das Delikt"
+            ]
+        },
+        {
+            "side_a": [
+                "commettre un crime"
+            ],
+            "side_b": [
+                "ein Verbrechen begehen"
+            ]
+        },
+        {
+            "side_a": [
+                "le casseur"
+            ],
+            "side_b": [
+                "der Schläger"
+            ]
+        },
+        {
+            "side_a": [
+                "la menace"
+            ],
+            "side_b": [
+                "die Bedrohung , die Drohung",
+
+                "die Bedrohung",
+                "die Drohung"
+            ]
+        },
+        {
+            "side_a": [
+                "menacer qn"
+            ],
+            "side_b": [
+                "jn bedrohen"
+            ]
+        },
+        {
+            "side_a": [
+                "frapper qn/qc"
+            ],
+            "side_b": [
+                "jn/etw schlagen, jn/etw klopfen",
+
+                "jn/etw schlagen",
+                "jn schlagen",
+                "etw schlagen",
+
+                "jn/etw klopfen",
+                "jn klopfen",
+                "etw klopfen"
+            ]
+        },
+        {
+            "side_a": [
+                "tabasser qn"
+            ],
+            "side_b": [
+                "jn verprügeln"
+            ]
+        },
+        {
+            "side_a": [
+                "une agression"
+            ],
+            "side_b": [
+                "ein Angriff"
+            ]
+        },
+        {
+            "side_a": [
+                "un agresseur"
+            ],
+            "side_b": [
+                "ein Angreifer"
+            ]
+        },
+        {
+            "side_a": [
+                "la rixe"
+            ],
+            "side_b": [
+                "die Schlägerei"
+            ]
+        },
+        {
+            "side_a": [
+                "agresser qn"
+            ],
+            "side_b": [
+                "jn angreifen, jn überfallen",
+
+                "jn angreifen",
+                "jn überfallen"
+            ]
+        },
+        {
+            "side_a": [
+                "le vol"
+            ],
+            "side_b": [
+                "der Diebstahl"
+            ]
+        },
+        {
+            "side_a": [
+                "le cambriolage"
+            ],
+            "side_b": [
+                "der Einbruch, der Einbruchsdiebstahl",
+
+                "der Einbruch",
+                "der Einbruchsdiebstahl"
+            ]
+        },
+        {
+            "side_a": [
+                "cambrioler qc"
+            ],
+            "side_b": [
+                "in etw einbrechen"
+            ]
+        },
+        {
+            "side_a": [
+                "le chantage"
+            ],
+            "side_b": [
+                "die Erpressung"
+            ]
+        },
+        {
+            "side_a": [
+                "le racket"
+            ],
+            "side_b": [
+                "die Gelderpressung"
+            ]
+        },
+        {
+            "side_a": [
+                "racketter qn"
+            ],
+            "side_b": [
+                "von jn Geld erpressen"
+            ]
+        },
+        {
+            "side_a": [
+                "maltraiter qn"
+            ],
+            "side_b": [
+                "jn misshandeln"
+            ]
+        },
+        {
+            "side_a": [
+                "bousculer qn"
+            ],
+            "side_b": [
+                "jn anrempeln"
+            ]
+        },
+        {
+            "side_a": [
+                "le viol"
+            ],
+            "side_b": [
+                "die Vergewaltigung"
+            ]
+        },
+        {
+            "side_a": [
+                "violer qn"
+            ],
+            "side_b": [
+                "jn vergewaltigen"
+            ]
+        },
+        {
+            "side_a": [
+                "kidnapper qn"
+            ],
+            "side_b": [
+                "jn entführen"
+            ]
+        },
+        {
+            "side_a": [
+                "une injure"
+            ],
+            "side_b": [
+                "eine Beschimpfung, eine Beleidigung",
+
+                "eine Beschimpfung",
+                "eine Beleidigung"
+            ]
+        },
+        {
+            "side_a": [
+                "une insulte"
+            ],
+            "side_b": [
+                "eine Beschimpfung, eine Beleidigung",
+
+                "eine Beschimpfung",
+                "eine Beleidigung"
+            ]
+        },
+        {
+            "side_a": [
+                "le harcèlement"
+            ],
+            "side_b": [
+                "die Belästigung, das Mobbing",
+                "die Belästigung",
+                "das Mobbing"
+            ]
+        },
+        {
+            "side_a": [
+                "herceler qn"
+            ],
+            "side_b": [
+                "jn belästigen, mobben",
+                "jn belästigen",
+                "mobben"
+            ]
+        },
+        {
+            "side_a": [
+                "la persécution"
+            ],
+            "side_b": [
+                "die Verfolgung"
+            ]
+        },
+        {
+            "side_a": [
+                "tuer qn"
+            ],
+            "side_b": [
+                "jn töten"
+            ]
+        },
+        {
+            "side_a": [
+                "abattre qn"
+            ],
+            "side_b": [
+                "jn erschiessen"
+            ]
+        },
+        {
+            "side_a": [
+                "fusiller qn"
+            ],
+            "side_b": [
+                "jn erschiessen"
+            ]
+        },
+        {
+            "side_a": [
+                "une arme"
+            ],
+            "side_b": [
+                "eine Waffe"
+            ]
+        },
+        {
+            "side_a": [
+                "le fusil"
+            ],
+            "side_b": [
+                "das Gewehr"
+            ]
+        },
+        {
+            "side_a": [
+                "le pistolet"
+            ],
+            "side_b": [
+                "die Pistole"
+            ]
+        },
+        {
+            "side_a": [
+                "poignarder qn"
+            ],
+            "side_b": [
+                "jn erstechen"
+            ]
+        },
+        {
+            "side_a": [
+                "la blessure"
+            ],
+            "side_b": [
+                "die Verletzung"
+            ]
+        },
+        {
+            "side_a": [
+                "blesser qn"
+            ],
+            "side_b": [
+                "jn verletzen"
+            ]
+        },
+        {
+            "side_a": [
+                "le meurtre"
+            ],
+            "side_b": [
+                "der Mord"
+            ]
+        },
+        {
+            "side_a": [
+                "le meurtrier"
+            ],
+            "side_b": [
+                "der Mörder"
+            ]
+        },
+        {
+            "side_a": [
+                "le coupable"
+            ],
+            "side_b": [
+                "der Täter, der Schuldige",
+                "der Täter",
+                "der Schuldige"
+            ]
+        },
+        {
+            "side_a": [
+                "la bande"
+            ],
+            "side_b": [
+                "die Bande"
+            ]
+        },
+        {
+            "side_a": [
+                "la victime"
+            ],
+            "side_b": [
+                "das Opfer"
+            ]
+        },
+        {
+            "side_a": [
+                "le témoin"
+            ],
+            "side_b": [
+                "der Zeuge"
+            ]
+        },
+        {
+            "side_a": [
+                "la police"
+            ],
+            "side_b": [
+                "die Polizei"
+            ]
+        },
+        {
+            "side_a": [
+                "le policier"
+            ],
+            "side_b": [
+                "der Polizist"
+            ]
+        },
+        {
+            "side_a": [
+                "un avocat"
+            ],
+            "side_b": [
+                "ein Anwalt"
+            ]
+        },
+        {
+            "side_a": [
+                "le juge"
+            ],
+            "side_b": [
+                "der Richter"
+            ]
+        },
+        {
+            "side_a": [
+                "arrêter qn"
+            ],
+            "side_b": [
+                "jn festnehmen, verhaften",
+                "jn festnehmen",
+                "verhaften"
+            ]
+        },
+        {
+            "side_a": [
+                "une accusation"
+            ],
+            "side_b": [
+                "eine Anklage"
+            ]
+        },
+        {
+            "side_a": [
+                "accuser qn de qc"
+            ],
+            "side_b": [
+                "jn einer Sache anklagen"
+            ]
+        },
+        {
+            "side_a": [
+                "un interrogatoire"
+            ],
+            "side_b": [
+                "eine Befragung"
+            ]
+        },
+        {
+            "side_a": [
+                "interroger qn"
+            ],
+            "side_b": [
+                "jn verhören, befragen",
+                
+                "jn verhören",
+                "befragen"
+            ]
+        },
+        {
+            "side_a": [
+                "la culpabilité"
+            ],
+            "side_b": [
+                "die Schuld"
+            ]
+        },
+        {
+            "side_a": [
+                "être coupable de qc"
+            ],
+            "side_b": [
+                "einer Sache schuldig sein"
+            ]
+        },
+        {
+            "side_a": [
+                "une innocence"
+            ],
+            "side_b": [
+                "eine Unschuld"
+            ]
+        },
+        {
+            "side_a": [
+                "innocent"
+            ],
+            "side_b": [
+                "unschuldig"
+            ]
+        },
+        {
+            "side_a": [
+                "avouer qc"
+            ],
+            "side_b": [
+                "etw zugeben"
+            ]
+        },
+        {
+            "side_a": [
+                "se défendre d'avoir fait qc"
+            ],
+            "side_b": [
+                "abstreiten, etw getan zu haben",
+
+                "abstreiten",
+                "etw getan zu haben"
+            ]
+        },
+        {
+            "side_a": [
+                "le soupçon"
+            ],
+            "side_b": [
+                "der Verdacht"
+            ]
+        },
+        {
+            "side_a": [
+                "le soupçonner qn"
+            ],
+            "side_b": [
+                "jn verdächtigen"
+            ]
+        },
+        {
+            "side_a": [
+                "la preuve"
+            ],
+            "side_b": [
+                "der Beweis"
+            ]
+        },
+        {
+            "side_a": [
+                "prouver qc (à qn)",
+                "prouver qc"
+            ],
+            "side_b": [
+                "jm etw beweisen",
+                "etw beweisen"
+            ]
+        },
+        {
+            "side_a": [
+                "la loi"
+            ],
+            "side_b": [
+                "das Gesetz"
+            ]
+        },
+        {
+            "side_a": [
+                "le jugement"
+            ],
+            "side_b": [
+                "das Urteil"
+            ]
+        },
+        {
+            "side_a": [
+                "la justice"
+            ],
+            "side_b": [
+                "die Gerechtigkeit"
+            ]
+        },
+        {
+            "side_a": [
+                "juste"
+            ],
+            "side_b": [
+                "gerecht"
+            ]
+        },
+        {
+            "side_a": [
+                "une injustice"
+            ],
+            "side_b": [
+                "eine Ungerechtigkeit"
+            ]
+        },
+        {
+            "side_a": [
+                "injuste"
+            ],
+            "side_b": [
+                "ungerecht"
+            ]
+        },
+        {
+            "side_a": [
+                "la condamnation"
+            ],
+            "side_b": [
+                "die Verurteilung"
+            ]
+        },
+        {
+            "side_a": [
+                "condamner qn à qc"
+            ],
+            "side_b": [
+                "jn zu etw verurteilen"
+            ]
+        },
+        {
+            "side_a": [
+                "la peine"
+            ],
+            "side_b": [
+                "die Strafe"
+            ]
+        },
+        {
+            "side_a": [
+                "la peine de prison"
+            ],
+            "side_b": [
+                "die Gefängnisstrafe"
+            ]
+        },
+        {
+            "side_a": [
+                "une amende"
+            ],
+            "side_b": [
+                "eine Busse"
+            ]
+        },
+        {
+            "side_a": [
+                "la réaction"
+            ],
+            "side_b": [
+                "die Reaktion"
+            ]
+        },
+        {
+            "side_a": [
+                "réagir à qn/qc",
+
+                "réagir à qn",
+                "réagir à qc"
+            ],
+            "side_b": [
+                "auf jn/etw reagieren",
+
+                "auf jn reagieren",
+                "auf etw reagieren"
+            ]
+        },
+        {
+            "side_a": [
+                "la manifestation"
+            ],
+            "side_b": [
+                "die Demonstration"
+            ]
+        },
+        {
+            "side_a": [
+                "le manifestant"
+            ],
+            "side_b": [
+                "der Demonstrant"
+            ]
+        },
+        {
+            "side_a": [
+                "le comportement"
+            ],
+            "side_b": [
+                "das Verhalten"
+            ]
+        },
+        {
+            "side_a": [
+                "se comporter"
+            ],
+            "side_b": [
+                "sich verhalten"
+            ]
+        },
+        {
+            "side_a": [
+                "une inquiétude"
+            ],
+            "side_b": [
+                "eine Beunruhigung"
+            ]
+        },
+        {
+            "side_a": [
+                "s'inquiéter pour qn/de qc",
+                "s'inquiéter pour qn",
+                "s'inquiéter de qc"
+            ],
+            "side_b": [
+                "sich beunruhigen, sich Sorgen machen",
+                "sich beunruhigen",
+                "sich Sorgen machen"
+            ]
+        },
+        {
+            "side_a": [
+                "se faire du souci pour qn/qc",
+
+                "se faire du souci pour qn",
+                "se faire du souci pour qc"
+            ],
+            "side_b": [
+                "sich um jn/etw Sorgen machen",
+
+                "sich um jn Sorgen machen",
+                "sich um etw Sorgen machen"
+            ]
+        },
+        {
+            "side_a": [
+                "aider qn"
+            ],
+            "side_b": [
+                "jm helfen"
+            ]
+        },
+        {
+            "side_a": [
+                "s'occuper de qn/qc",
+                "s'occuper de qn",
+                "s'occuper de qc"
+            ],
+            "side_b": [
+                "sich um jn/etw kümmern",
+                "sich um jn kümmern",
+                "sich um etw kümmern"
+            ]
+        },
+        {
+            "side_a": [
+                "une influence"
+            ],
+            "side_b": [
+                "ein Einfluss"
+            ]
+        },
+        {
+            "side_a": [
+                "influencer qn/qc",
+
+                "influencer qn",
+                "influencer qc"
+            ],
+            "side_b": [
+                "jm/etw. beeinflussen",
+
+                "jm beeinflussen",
+                "etw beeinflussen"
+            ]
+        },
+        {
+            "side_a": [
+                "avoir un objectif"
+            ],
+            "side_b": [
+                "ein Ziel haben"
+            ]
+        },
+        {
+            "side_a": [
+                "être l'objectif"
+            ],
+            "side_b": [
+                "das Ziel sein"
+            ]
+        },
+        {
+            "side_a": [
+                "être en conflit avec qn/qc",
+
+                "être en conflit avec qn",
+                "être en conflit avec qc"
+            ],
+            "side_b": [
+                "mit jm im Streit liegen, mit etw zusammenstossen",
+
+                "mit jm im Streit liegen",
+                "mit etw. zusammenstossen"
+
+            ]
+        },
+        {
+            "side_a": [
+                "avoir pitié de qn"
+            ],
+            "side_b": [
+                "mit jm Mitleid haben"
+            ]
+        },
+        {
+            "side_a": [
+                "encourager qn à qc"
+            ],
+            "side_b": [
+                "jn zu etw ermutigen"
+            ]
+        },
+        {
+            "side_a": [
+                "se décourager"
+            ],
+            "side_b": [
+                "den Mut verlieren"
+            ]
+        },
+        {
+            "side_a": [
+                "décourager qn (de qc)",
+
+                "décourager qn",
+                "décourager qn de qc"
+            ],
+            "side_b": [
+                "jn entmutigen, (jn von etw. abbringen)",
+                
+                "jn entmutigen",
+                "jn von etw abbringen"
+            ]
+        },
+        {
+            "side_a": [
+                "garantir la sécurité"
+            ],
+            "side_b": [
+                "die Sicherheit garantieren"
+            ]
+        },
+        {
+            "side_a": [
+                "être la raison"
+            ],
+            "side_b": [
+                "der Grund sein"
+            ]
+        },
+        {
+            "side_a": [
+                "la solution"
+            ],
+            "side_b": [
+                "die Lösung"
+            ]
+        },
+        {
+            "side_a": [
+                "rejeter qc"
+            ],
+            "side_b": [
+                "etw ablehnen, verwerfen",
+
+                "etw ablehnen",
+                "verwerfen"
+            ]
+        },
+        {
+            "side_a": [
+                "s'adapter à qn/qc",
+
+                "s'adapter à qn",
+                "s'adapter à qc"
+
+            ],
+            "side_b": [
+                "sich an jm/etw anpassen",
+
+                "sich an jm anpassen",
+                "sich an etw anpassen"
+            ]
+        },
+        {
+            "side_a": [
+                "soutenir qn/qc",
+
+                "soutenir qn",
+                "soutenir qc"
+            ],
+            "side_b": [
+                "jn/etw unterstützen",
+                "jn unterstützen",
+                "etw unterstützen"
+            ]
+        },
+        {
+            "side_a": [
+                "être responsable de qn/qc",
+
+                "être responsable de qn",
+                "être responsable de qc"
+            ],
+            "side_b": [
+                "für jn/etw verantwortlich sein",
+
+                "für jn verantwortlich sein",
+                "für etw verantwortlich sein"
+            ]
+        },
+        {
+            "side_a": [
+                "la responsabilité"
+            ],
+            "side_b": [
+                "die Verantwortung"
+            ]
+        },
+        {
+            "side_a": [
+                "la protection"
+            ],
+            "side_b": [
+                "der Schutz"
+            ]
+        },
+        {
+            "side_a": [
+                "protéger qn/qc",
+
+                "protéger qn",
+                "protéger qc"
+            ],
+            "side_b": [
+                "jn/etw schützen",
+
+                "jn schützen",
+                "etw schützen"
+            ]
+        },
+        {
+            "side_a": [
+                "prendre des mesures"
+            ],
+            "side_b": [
+                "Massnahmen ergreifen"
+            ]
+        },
+        {
+            "side_a": [
+                "une augmentation"
+            ],
+            "side_b": [
+                "eine Zunahme, eine Erhöhung",
+                "eine Zunahme",
+                "eine Erhöhung"
+            ]
+        },
+        {
+            "side_a": [
+                "augmenter"
+            ],
+            "side_b": [
+                "steigen, wachsen, erhöhen",
+                "steigen",
+                "wachsen",
+                "erhöhen"
+            ]
+        },
+        {
+            "side_a": [
+                "la réduction"
+            ],
+            "side_b": [
+                "die Abnahme"
+            ]
+        },
+        {
+            "side_a": [
+                "réduire qc"
+            ],
+            "side_b": [
+                "etw reduzieren"
+            ]
+        },
+        {
+            "side_a": [
+                "baisser"
+            ],
+            "side_b": [
+                "sinken, abnehmen",
+                "sinken",
+                "abnehmen"
+            ]
+        },
+        {
+            "side_a": [
+                "une intégration"
+            ],
+            "side_b": [
+                "eine Integration"
+            ]
+        },
+        {
+            "side_a": [
+                "s'intégrer (à/dans qc)",
+                "s'intégrer à/dans qc",
+                "s'intégrer à qc",
+                "s'intégrer dans qc"
+            ],
+            "side_b": [
+                "sich (in etw) integrieren",
+                "sich in etw integrieren",
+                "sich integrieren",
+                "in etw integrieren"
+            ]
+        },
+        {
+            "side_a": [
+                "le marginal"
+            ],
+            "side_b": [
+                "der Aussenseiter, der Asoziale",
+                "der Aussenseiter",
+                "der Asoziale"
+            ]
+        },
+        {
+            "side_a": [
+                "exclu"
+            ],
+            "side_b": [
+                "ausgegrenzt"
+            ]
+        },
+        {
+            "side_a": [
+                "une exclusion"
+            ],
+            "side_b": [
+                "eine Ausgrenzung"
+            ]
+        },
+        {
+            "side_a": [
+                "avoir un problème"
+            ],
+            "side_b": [
+                "ein Problem haben"
+            ]
+        },
+        {
+            "side_a": [
+                "le respect"
+            ],
+            "side_b": [
+                "der Respekt"
+            ]
+        },
+        {
+            "side_a": [
+                "respecter qn/qc",
+                "respecter qn",
+                "respecter qc"
+            ],
+            "side_b": [
+                "jn/etw respektieren",
+                "jn respektieren",
+                "etw respektieren"
+            ]
+        },
+        {
+            "side_a": [
+                "la tolérance"
+            ],
+            "side_b": [
+                "die Toleranz"
+            ]
+        },
+        {
+            "side_a": [
+                "tolérer qn/qc",
+
+                "tolérer qn",
+                "tolérer qc"
+            ],
+            "side_b": [
+                "jn/etw tolerieren",
+
+                "jn tolerieren",
+                "etw tolerieren"
+            ]
+        },
+        {
+            "side_a": [
+                "une acceptation"
+            ],
+            "side_b": [
+                "eine Akzeptanz"
+            ]
+        },
+        {
+            "side_a": [
+                "accepter qn/qc",
+                "accepter qn",
+                "accepter qc"
+            ],
+            "side_b": [
+                "jn/etw akzeptieren",
+                "jn akzeptieren",
+                "etw akzeptieren"
+            ]
+        },
+        {
+            "side_a": [
+                "un adolescent"
+            ],
+            "side_b": [
+                "ein Jugendlicher"
+            ]
+        },
+        {
+            "side_a": [
+                "un jeune"
+            ],
+            "side_b": [
+                "ein Jugendlicher"
+            ]
+        },
+        {
+            "side_a": [
+                "la société"
+            ],
+            "side_b": [
+                "die Gesellschaft"
+            ]
+        },
+        {
+            "side_a": [
+                "le changement"
+            ],
+            "side_b": [
+                "die Veränderung"
+            ]
+        },
+        {
+            "side_a": [
+                "changer"
+            ],
+            "side_b": [
+                "sich verändern"
+            ]
+        },
+        {
+            "side_a": [
+                "changer de qc"
+            ],
+            "side_b": [
+                "etw ändern"
+            ]
+        },
+        {
+            "side_a": [
+                "subir qc"
+            ],
+            "side_b": [
+                "etw erleiden, ertragen",
+                "etw erleiden",
+                "ertragen"
+            ]
+        },
+        {
+            "side_a": [
+                "une humiliation"
+            ],
+            "side_b": [
+                "eine Erniedrigung, eine Demütigung",
+                "eine Erniedrigung",
+                "eine Demütigung"
+            ]
+        },
+        {
+            "side_a": [
+                "la lutte"
+            ],
+            "side_b": [
+                "der Kampf"
+            ]
+        },
+        {
+            "side_a": [
+                "le cercle vicieux"
+            ],
+            "side_b": [
+                "der Teufelskreis"
+            ]
+        }
+    ]
+}
