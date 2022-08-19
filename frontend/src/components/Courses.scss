@@ -1,0 +1,61 @@
+/*
+  ============
+      Grid
+  ============
+*/
+
+.grid {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 65px;
+    grid-row-gap: 20px;
+  }
+  
+  /*
+    ==============
+        Course
+    ==============
+  */
+  .courseBox{
+    height: auto;
+    width: auto;
+    border-radius: 25px;
+    padding: 1.5em;
+    margin-bottom: 0.5em;
+    background-image: linear-gradient(#42FC86, #47e6af);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+    
+    .information{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.5em;
+  
+      .bubble{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 4em;
+        width: 4em;
+        border-radius: 10px;
+        background-color: #ccc;
+  
+        .information-icon{
+          height: auto;
+          margin: 1em;
+        }
+      }
+    }
+  
+    
+  }
+  .courseBox:hover{   
+    background-image: linear-gradient(#d1d1d1, #8a8a8a);
+    border-bottom:  #47e6af solid 0.5em;
+    padding-bottom: 1px;
+    cursor: pointer;
+    transition: 0.5s background-size linear;
+  }

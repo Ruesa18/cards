@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faFileText} from '@fortawesome/free-regular-svg-icons/faFileText';
 import {faUser} from '@fortawesome/free-regular-svg-icons/faUser';
+import './Courses.scss';
 
 export class Courses extends Component {
   render() {
