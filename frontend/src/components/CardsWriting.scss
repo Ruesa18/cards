@@ -31,8 +31,10 @@
 
     .progress{
         display: flex;
+        
         .stats-box{
             margin: 0.5em;
+
             .stats-bar{
                 /*TODO: Stats Bar*/
             }
@@ -64,20 +66,25 @@
     .answer-sub-box{
         margin: 2em;
         height: 10em;
+
         .answer{
             margin: 1.5em
 
         }
+
         .user-answer-box{
             margin-bottom: 2em;
+
             input{
                 height: 2em;
                 width: 30em;
                 border-radius: 15px;
             }
         }
+
         .right-answer-box{
             display: none;
+            
             h1{
                 margin: 0em 0 0 1.5em;
             }
