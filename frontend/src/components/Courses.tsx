@@ -1,83 +1,35 @@
-import React, { Component } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import {faFileText} from '@fortawesome/free-regular-svg-icons/faFileText';
-import {faUser} from '@fortawesome/free-regular-svg-icons/faUser';
+import { Component } from 'react';
 import './Courses.scss';
+import { CourseRepository } from '../repositories/CourseRepository';
+import { CourseDto } from '../dtos/CourseDto';
+import { CourseBox } from './CourseBox';
 
-export class Courses extends Component {
-  render() {
-    return(
-    <div>
-       <h1> Courses </h1>
+export class Courses extends Component<{}, {courses: CourseDto[]}> {
+    constructor(props: Readonly<Object> | Object) {
+        super(props);
 
-        <div className="grid">
+        this.state = {
+            courses: []
+        }
+    }
 
-        <div className="courseBox">
-            <div className="information">
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faFileText}/>
-            </div>
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faUser}/>
-            </div>
-            </div>
-            <h2> Franz Voc: Violonce </h2>
-            <h3> 137 Begriffe</h3>
-            <br />
-            <h4> Created on: dd.mm.yyyy</h4>
-            <h4> Updated on: dd.mm.yyyy</h4>
-        </div>
+    render() {
+        let courseRepository = new CourseRepository();
+        courseRepository.findAll<CourseDto>().then((res: CourseDto[]) => {this.setState({courses: res})});
 
-        <div className="courseBox">
-            <div className="information">
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faFileText}/>
-            </div>
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faUser}/>
-            </div>
-            </div>
-            <h2> Franz Voc: Violonce </h2>
-            <h3> 137 Begriffe</h3>
-            <br />
-            <h4> Created on: dd.mm.yyyy</h4>
-            <h4> Updated on: dd.mm.yyyy</h4>
-        </div>
+        return(
+            <div>
+                <h1> Courses </h1>
 
-        <div className="courseBox">
-            <div className="information">
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faFileText}/>
+                <div className="grid">
+                    {this.state.courses.length > 0 ? this.state.courses.map(course => ( 
+                        <CourseBox id={"" + course.id} name={course.name} languageA={course.languageA} languageB={course.languageB} creator={course.creator}></CourseBox>
+                    )) : (
+                        <div className='notice'>No courses available</div>
+                    )}
+                </div>
             </div>
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faUser}/>
-            </div>
-            </div>
-            <h2> Franz Voc: Violonce </h2>
-            <h3> 137 Begriffe</h3>
-            <br />
-            <h4> Created on: dd.mm.yyyy</h4>
-            <h4> Updated on: dd.mm.yyyy</h4>
-        </div>
-
-        <div className="courseBox">
-            <div className="information">
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faFileText}/>
-            </div>
-            <div className="bubble">
-                <FontAwesomeIcon className="information-icon" icon={faUser}/>
-            </div>
-            </div>
-            <h2> Franz Voc: Violonce </h2>
-            <h3> 137 Begriffe</h3>
-            <br />
-            <h4> Created on: dd.mm.yyyy</h4>
-            <h4> Updated on: dd.mm.yyyy</h4>
-        </div>
-        </div>
-    </div>
-    )
-  }
+        )
+    }
 }
 export default Courses;
