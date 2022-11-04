@@ -1,10 +1,10 @@
 version: '3.4'
 
 services:
-    web:
-        container_name: cards_backend
+    frontend:
+        container_name: cards_frontend
         build:
-            context: "." # Build directory
+            context: "."
             target: dev # Build stage
             args:
                 DDE_UID: ${DDE_UID} # Pass your UID (DDE_UID is set automatically)
@@ -12,8 +12,8 @@ services:
         volumes:
             - ./:/var/www
         environment:
-            - VIRTUAL_HOST=backend.cards.test
-            - OPEN_URL=http://backend.cards.test/
+            - VIRTUAL_HOST=cards.test
+            - OPEN_URL=http://cards.test/
 
 networks:
     default:
