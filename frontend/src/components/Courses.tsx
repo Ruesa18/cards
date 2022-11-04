@@ -11,12 +11,12 @@ export class Courses extends Component<{}, {courses: CourseDto[]}> {
         this.state = {
             courses: []
         }
+
+        let courseRepository = new CourseRepository();
+        courseRepository.findAll<CourseDto>().then((res: CourseDto[]) => {this.setState({courses: res})});
     }
 
     render() {
-        let courseRepository = new CourseRepository();
-        courseRepository.findAll<CourseDto>().then((res: CourseDto[]) => {this.setState({courses: res})});
-
         return(
             <div>
                 <h1> Courses </h1>
