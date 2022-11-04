@@ -1,10 +1,10 @@
 install:
-	npm install
+	yarn install
 
 build:
 	make install
-	npm run build
+	yarn run build
 
 dev:
 	make install
-	npm run watch
+	yarn run start

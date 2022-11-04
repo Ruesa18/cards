@@ -1,5 +1,5 @@
 # Base stage (used in development and production)
-FROM whatwedo/nginx:v2.5 as base
+FROM whatwedo/yarn:v2.5 as base
 
 # Development stage (depencencies and configuration used in development only)
 FROM base as dev
@@ -13,8 +13,9 @@ ARG DDE_UID
 ARG DDE_GID
 RUN /tmp/dde-configure-image.sh
 
-# Install needed dependencies
-RUN apk add nodejs npm
+WORKDIR /var/www
+
+EXPOSE 3000
 
 # Production stage (depencencies and configuration used in production only)
 FROM dev as prod
