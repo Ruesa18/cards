@@ -18,8 +18,11 @@ class Language
     #[ORM\Column(length: 255)]
     private ?string $name = null;
 
-    #[ORM\OneToMany(mappedBy: 'language_b', targetEntity: Course::class)]
-    private Collection $courses;
+    #[ORM\OneToMany(mappedBy: 'languageFrom', targetEntity: Course::class)]
+    private Collection $coursesFromLanguage;
+
+	#[ORM\OneToMany(mappedBy: 'languageTo', targetEntity: Course::class)]
+	private Collection $coursesToLanguage;
 
     public function __construct()
     {
@@ -46,30 +49,16 @@ class Language
     /**
      * @return Collection<int, Course>
      */
-    public function getCourses(): Collection
+    public function getCoursesFromLanguage(): Collection
     {
-        return $this->courses;
+        return $this->coursesFromLanguage;
     }
 
-    public function addCourse(Course $course): self
+	/**
+     * @return Collection<int, Course>
+     */
+	public function getCoursesToLanguage(): Collection
     {
-        if (!$this->courses->contains($course)) {
-            $this->courses->add($course);
-            $course->setLanguageB($this);
-        }
-
-        return $this;
-    }
-
-    public function removeCourse(Course $course): self
-    {
-        if ($this->courses->removeElement($course)) {
-            // set the owning side to null (unless already changed)
-            if ($course->getLanguageB() === $this) {
-                $course->setLanguageB(null);
-            }
-        }
-
-        return $this;
+        return $this->coursesToLanguage;
     }
 }

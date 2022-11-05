@@ -15,8 +15,8 @@ class CourseShowDto {
         $this->id = $course->getId();
         $this->name = $course->getName();
         $this->creator = $course->getCreator();
-        $this->language_a = $course->getLanguageA()->getName();
-        $this->language_b = $course->getLanguageB()->getName();
+        $this->language_a = $course->getLanguageFrom()->getName();
+        $this->language_b = $course->getLanguageTo()->getName();
     }
 }
 

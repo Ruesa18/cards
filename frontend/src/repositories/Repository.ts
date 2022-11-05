@@ -5,7 +5,7 @@ export class Repository {
     protected endpoint: string = "/";
 
     constructor() {
-        this.baseUrl = "http://localhost:8000";
+        this.baseUrl = "https://backend.cards.test/api";
     }
 
     async findAll<Type>() {

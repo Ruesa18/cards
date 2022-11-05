@@ -9,6 +9,7 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Doctrine\Persistence\ManagerRegistry;
 
+#[Route('/api')]
 class CourseController extends AbstractController {
 
     public function __construct(private ManagerRegistry $doctrine) {}

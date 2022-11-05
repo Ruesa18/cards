@@ -8,6 +8,7 @@ use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity(repositoryClass: CourseRepository::class)]
 #[ORM\Table(name: "course")]
+#[ORM\HasLifecycleCallbacks]
 class Course
 {
     #[ORM\Id]
@@ -27,13 +28,17 @@ class Course
     #[ORM\Column(type: Types::DATETIME_MUTABLE)]
     private ?\DateTimeInterface $update_date = null;
 
-    #[ORM\ManyToOne(inversedBy: 'courses')]
+    #[ORM\ManyToOne(inversedBy: 'coursesFromLanguage')]
     #[ORM\JoinColumn(nullable: false)]
-    private ?Language $language_a = null;
+    private ?Language $languageFrom = null;
 
-    #[ORM\ManyToOne(inversedBy: 'courses')]
+    #[ORM\ManyToOne(inversedBy: 'coursesToLanguage')]
     #[ORM\JoinColumn(nullable: false)]
-    private ?Language $language_b = null;
+    private ?Language $languageTo = null;
+
+	public function __construct() {
+		$this->setCreateDate(new \DateTime());
+	}
 
     public function getId(): ?int
     {
@@ -88,27 +93,38 @@ class Course
         return $this;
     }
 
-    public function getLanguageA(): ?Language
+    public function getLanguageFrom(): ?Language
     {
-        return $this->language_a;
+        return $this->languageFrom;
     }
 
-    public function setLanguageA(?Language $language_a): self
+    public function setLanguageFrom(?Language $language): self
     {
-        $this->language_a = $language_a;
+        $this->languageFrom = $language;
 
         return $this;
     }
 
-    public function getLanguageB(): ?Language
+    public function getLanguageTo(): ?Language
     {
-        return $this->language_b;
+        return $this->languageTo;
     }
 
-    public function setLanguageB(?Language $language_b): self
+    public function setLanguageTo(?Language $language): self
     {
-        $this->language_b = $language_b;
+        $this->languageTo = $language;
 
         return $this;
+    }
+	
+	#[ORM\PrePersist]
+	#[ORM\PreUpdate]
+    public function updatedTimestamps()
+    {
+        $this->setUpdateDate(new \DateTime('now'));
+
+        if ($this->getCreateDate() == null) {
+            $this->setCreateDate(new \DateTime('now'));
+        }
     }
 }
