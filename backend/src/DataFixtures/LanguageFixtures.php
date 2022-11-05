@@ -18,7 +18,7 @@ class LanguageFixtures extends Fixture
 			] as $language
 		) {
 			$languageEntity = new Language();
-			$languageEntity->setName(12);//$language['name']);
+			$languageEntity->setName($language['name']);
 			$manager->persist($languageEntity);
 			$this->addReference('language_' . $language['name'], $languageEntity);
 		}
