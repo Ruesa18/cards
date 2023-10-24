@@ -17,5 +17,5 @@ services:
 
 networks:
     default:
-        external: # <-- important
-            name: "dde"
+        name: "dde"
+        external: true

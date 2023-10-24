@@ -1,5 +1,5 @@
 # Base stage (used in development and production)
-FROM whatwedo/yarn:v2.5 as base
+FROM whatwedo/yarn:v2.7 as base
 
 # Development stage (depencencies and configuration used in development only)
 FROM base as dev
